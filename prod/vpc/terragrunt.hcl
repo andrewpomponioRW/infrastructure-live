@@ -1,7 +1,7 @@
 # infrastructure-live/prod/app/terragrunt.hcl
 terraform {
   source =
-    "github.com:foo/infrastructure-modules.git//app?ref=v0.0.1"
+    "github.com:foo/infrastructure-modules.git//app?ref=v0.0.3"
 }
 inputs = {
   instance_count = 10
