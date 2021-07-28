@@ -1,7 +1,7 @@
 # infrastructure-live/prod/app/terragrunt.hcl
 terraform {
   source =
-    jsonencode("github.com/andrewpomponioRW/infrastructure-modules.git//app?ref=v0.0.4")
+    jsonencode(github.com/andrewpomponioRW/infrastructure-modules.git//app?ref=v0.0.4)
 }
 
 inputs = {
