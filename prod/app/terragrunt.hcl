@@ -2,7 +2,7 @@
 # comment
 terraform {
   source =
-    jsonencode("/Users/andrew.pomponio/Desktop/bbterragrunt/infrastructure-modules/app")
+    "/Users/andrew.pomponio/Desktop/bbterragrunt/infrastructure-modules/app"
 }
 
 inputs = {
