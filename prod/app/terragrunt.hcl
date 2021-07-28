@@ -2,7 +2,7 @@
 # comment
 terraform {
   source =
-    '/Users/andrew.pomponio/Desktop/bbterragrunt/infrastructure-modules/app'
+    "git::github.com:andrewpomponioRW/infrastructure-modules.git//app?ref=v0.0.4"
 }
 
 inputs = {
