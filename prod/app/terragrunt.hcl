@@ -1,7 +1,7 @@
 # infrastructure-live/prod/app/terragrunt.hcl
 # comment
 terraform {
-  source = "github.com:andrewpomponioRW/infrastructure-modules.git//app?ref=v0.0.4"
+  source = "git::github.com/andrewpomponioRW/infrastructure-modules.git//app?ref=v0.0.4"
 }
 
 inputs = {
